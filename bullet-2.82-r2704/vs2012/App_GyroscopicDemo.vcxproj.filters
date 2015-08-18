@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{346E5626-5A09-5D4E-B96E-CDBB98D6EE0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\GyroscopicDemo">
+      <UniqueIdentifier>{9CC475A6-D0BC-4B46-A49A-BAB68BFB9C0D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\GyroscopicDemo\GyroscopicDemo.h">
+      <Filter>Demos\GyroscopicDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\GyroscopicDemo\GyroscopicDemo.cpp">
+      <Filter>Demos\GyroscopicDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\GyroscopicDemo\main.cpp">
+      <Filter>Demos\GyroscopicDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\GyroscopicDemo\Win32GyroscopicDemo.cpp">
+      <Filter>Demos\GyroscopicDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

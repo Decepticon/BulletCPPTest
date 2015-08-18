@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{FA9933F5-DD6C-6541-ACD0-A8742621AEA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\ForkLiftDemo">
+      <UniqueIdentifier>{2AF2D7F4-7214-E54C-A058-CBBF3DFE3747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\ForkLiftDemo\ForkLiftDemo.h">
+      <Filter>Demos\ForkLiftDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\ForkLiftDemo\ForkLiftDemo.cpp">
+      <Filter>Demos\ForkLiftDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\ForkLiftDemo\main.cpp">
+      <Filter>Demos\ForkLiftDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

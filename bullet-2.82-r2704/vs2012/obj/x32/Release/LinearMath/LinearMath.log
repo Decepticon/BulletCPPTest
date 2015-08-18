@@ -1,0 +1,27 @@
+﻿Build started 8/17/2015 7:11:34 PM.
+     1>Project "C:\bullet-2.82-r2704\bullet-2.82-r2704\build\vs2010\LinearMath.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\..\src /nologo /W3 /WX- /Ox /Oy- /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _HAS_EXCEPTIONS=0 /D _MBCS /GF /Gm- /MD /GS /Gy /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"obj\x32\Release\LinearMath\\" /Fd"obj\x32\Release\LinearMath\LinearMath.pdb" /Gd /TP /analyze- /errorReport:prompt /MP ..\..\src\LinearMath\btAlignedAllocator.cpp ..\..\src\LinearMath\btConvexHull.cpp ..\..\src\LinearMath\btConvexHullComputer.cpp ..\..\src\LinearMath\btGeometryUtil.cpp ..\..\src\LinearMath\btPolarDecomposition.cpp ..\..\src\LinearMath\btQuickprof.cpp ..\..\src\LinearMath\btSerializer.cpp ..\..\src\LinearMath\btVector3.cpp
+         btAlignedAllocator.cpp
+         btConvexHull.cpp
+         btConvexHullComputer.cpp
+         btGeometryUtil.cpp
+         btPolarDecomposition.cpp
+         btQuickprof.cpp
+         btSerializer.cpp
+         btVector3.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"..\..\lib\LinearMath_vs2010.lib" /NOLOGO /MACHINE:X86 obj\x32\Release\LinearMath\btAlignedAllocator.obj
+         obj\x32\Release\LinearMath\btConvexHull.obj
+         obj\x32\Release\LinearMath\btConvexHullComputer.obj
+         obj\x32\Release\LinearMath\btGeometryUtil.obj
+         obj\x32\Release\LinearMath\btPolarDecomposition.obj
+         obj\x32\Release\LinearMath\btQuickprof.obj
+         obj\x32\Release\LinearMath\btSerializer.obj
+         obj\x32\Release\LinearMath\btVector3.obj
+         LinearMath.vcxproj -> C:\bullet-2.82-r2704\bullet-2.82-r2704\build\vs2010\..\..\lib\LinearMath_vs2010.lib
+     1>Done Building Project "C:\bullet-2.82-r2704\bullet-2.82-r2704\build\vs2010\LinearMath.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.16
